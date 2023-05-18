@@ -1,6 +1,6 @@
 import axios from "axios";
 export const getAllPosts = async () => {
-  const res = await axios.get("http://localhost:5000/posts");
+  const res = await axios.get("https://travel-blog-backend-635b.onrender.com/posts");
   if (res.status !== 200) {
     return console.log("Some Error Occurred");
   }
